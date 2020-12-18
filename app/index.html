@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Festive 2020</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="/index.js" type="module"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <section id="join" class="join hidden">
+    <h1>Decorate a Tree Together</h1>
+    <form id="joinForm" class="join-form">
+      <label for="treeName">Enter a tree name: </label>
+      <input id="treeName" name="treeName" type="text" />
+      <button id="joinBtn" type="submit">Join tree</button>
+    </form>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+  </section>
+
+  <div id="activeTree" class="hidden board-holder">
+    <h1>Decorate your Tree</h1>
+    <div class="users">
+      <span class="users-icon"></span>
+      <span class="users-number" id="memberCount"></span>
+    </div>
+
+    <div class="lights-options">
+      <input type="radio" name="lights" class="lights-radio" id="lights_no" data-src="./assets/tree.png">
+      <label for="lights_no" class="lights lights_no">No Lights</label>
+
+      <input type="radio" name="lights" class="lights-radio" id="lights" data-src="./assets/tree_lights.png">
+      <label for="lights" class="lights">Lights</label>
+
+      <input type="radio" name="lights" class="lights-radio" id="lights_white"
+        data-src="./assets/tree_white_lights.png">
+      <label for="lights_white" class="lights lights_white">White Lights</label>
+
+
+      <input type="radio" name="lights" class="lights-radio" id="lights_sm" data-src="./assets/tree_sm_lights.png">
+      <label for="lights_sm" class="lights lights_sm">Fairy Lights</label>
+    </div>
+
+    <div class="user-interaction">
+      <button id="share" class="share">Share</button>
+      <button id="screenshot" class="screenshot">Screenshot</button>
+    </div>
+    <div id="decoratedImage"></div>
+    <h2>Select your decorations:</h2>
+
+    <section class="decoration-selector">
+      <select id="assetFilter" class="decoration-selector-select">
+        <option selected disabled>Decoration type</option>
+        <option value="bauble">Baubles</option>
+        <option value="star">Stars</option>
+        <option value="other">Other</option>
+      </select>
+      <ul id="stickers" class="decorations"></ul>
+    </section>
+    <footer>
+      Powered by <a class="logo" href="https://ably.io">Ably</a>
+    </footer>
+  </div>
+</body>
+
+</html>
