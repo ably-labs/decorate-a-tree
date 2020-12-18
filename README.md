@@ -1,4 +1,4 @@
-# festive2020
+# A Sharable, Decoratable Christmas Tree for 2020
 
 Happy festive season everyone 🎄
 
