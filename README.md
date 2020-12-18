@@ -1,6 +1,6 @@
 # festive2020
 
-Happy festive season everyone 🖤
+Happy festive season everyone 🎄
 
 As we roll into the end of 2020, you might be missing the joy of decorating trees together, all 2020s considered. So for a little festive cheer, decorate a tree together, in real time.
 
