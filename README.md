@@ -8,7 +8,7 @@ Just drag and drop decorations onto your tree! It's saved automatically, and you
 
 You can put decorations you don't want anymore back in the box, and double clicking on the decoration box will clear the tree.
 
-Temp URL: https://red-smoke-0543b3b03.azurestaticapps.net/
+Temp URL: https://polite-dune-0e707fc03.azurestaticapps.net/
 
 # Technical notes on how this is built
 
