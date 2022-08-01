@@ -138,3 +138,5 @@ module.exports = async function (context, req) {
 
 By default, configures this API to be available on `https://azure-url/api/createTokenRequest`
 We're going to provide this URL to the Ably SDK in our client to authenticate with Ably.
+
+[![Ably logo](https://static.ably.dev/badge-black.svg?sharable-christmas-tree)](https://ably.com)
